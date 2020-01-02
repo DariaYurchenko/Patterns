@@ -12,7 +12,6 @@ public class UserInterface implements Observer {
         subject.registerObserver(this);
     }
 
-    @Override
     public void update(String temperature, String pressure) {
         this.pressure = pressure;
         this.temperature = temperature;

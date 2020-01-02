@@ -1,4 +1,4 @@
-package challenges.factorymethod.factory;
+package challenges.factory.factorymethod;
 
 public class ZoneUSPacific extends Zone {
 

@@ -20,6 +20,7 @@ public class WeatherStation implements Subject {
     public void removeObserver(Observer observer) {
         observers.remove(observer);
     }
+
     public void notifyObservers() {
         for(int i =0; i< observers.size(); i++) {
             observers.get(i).update(temperature, pressure);
